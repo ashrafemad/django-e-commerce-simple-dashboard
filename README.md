@@ -60,7 +60,9 @@ also you can use this if you need a quick/ready models so you can start building
 
 3- run migrations `python manage.py migrate`
 
-4- `python manage.py runserver` TADAAA
+4- Create a superuser account to access the dashboard `python manage.py createsuperuser`
+
+5- `python manage.py runserver` TADAAA
 
 
 Feel free to ask anything, modify anything :)
