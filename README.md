@@ -15,6 +15,9 @@ also you can use this if you need a quick/ready models so you can start building
 `DATABASES = {'default': dj_database_url.config(default=dj_database_url.config('postgres://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'))}`
 
 
+` This app has i18n enabled (Arabic / English) with translations added
+
+
 # What is included?
 
 1- Cutomers App:
