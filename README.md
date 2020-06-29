@@ -53,7 +53,7 @@ also you can use this if you need a quick/ready models so you can start building
   
   PS: `i tried to follow django-oscar product hierarchy`
   
-# How to tun it
+# How to run it
 1- Create a Python3 Virtual Environment and activate it
 
 2- install requirements `pip install -r requirements.txt`
