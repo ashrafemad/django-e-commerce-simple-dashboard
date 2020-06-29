@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>الميزانية</title>
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+          integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="row">
+    <div class="col-md-3"></div>
+
+    <div class="col-md-6" style="margin-top: 20px;">
+        <form class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only">شهر</label>
+                <select class="form-control" name="month">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only">سنة</label>
+                <input type="number" value="2020" class="form-control" id="inputPassword2" placeholder="Year" name="year">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">عرض الميزانية</button>
+        </form>
+
+    </div>
+
+
+    <div class="col-md-3"></div>
+</div>
+
+
+<h1 style="text-align: center">
+    الميزانية
+</h1>
+
+<h2 style="text-align: center">
+    {% now "d-m-Y" %}
+</h2>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="table-responsive col-md-6">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th scope="col">قيمة</th>
+                <th scope="col">بند</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{{ total_selling }}</td>
+                <td>إجمالى المبيعات</td>
+            </tr>
+            <thead class="thead-light">
+            <tr>
+                <td>{{ total_buying }}</td>
+                <td>إجمالى المشتريات</td>
+            </tr>
+            </thead>
+
+            <tr>
+                <td>{{ total_customer_payments }}</td>
+                <td>إجمالى مدفوعات العملاء (نقدية - بنك )</td>
+            </tr>
+
+            <tr>
+                <td>{{ total_seller_payments }}</td>
+                <td>إجمالى المدفوعات للموردين ( نقدية - بنك )</td>
+            </tr>
+
+
+            <tr>
+                <td>{{ total_revenues }}</td>
+                <td>إجمالى الإيرادات الأخرى</td>
+            </tr>
+
+
+            <tr>
+                <td>{{ insurance_primary }}</td>
+                <td>إجمالى التأمين المسترد</td>
+            </tr>
+
+            <tr>
+                <td>{{ total_selling_cost }}</td>
+                <td>إجمالى تكلفة المبيعات</td>
+            </tr>
+
+            <tr>
+                <td>{{ cash_balance }}</td>
+                <td>رصيد النقدية</td>
+            </tr>
+
+
+            <tr>
+                <td>{{ bank_balance }}</td>
+                <td>رصيد البنك</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
+        crossorigin="anonymous"></script>
+</body>
+</html>

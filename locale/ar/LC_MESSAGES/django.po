@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ashraf Emad <ashrafemad23@gmail.com>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-03 19:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: customers/apps.py:7
+msgid "Customers and Sellers"
+msgstr "العملاء والموردين"
+
+#: customers/models.py:7 expenses/models.py:6 expenses/models.py:20
+#: expenses/models.py:39 expenses/models.py:51 stock/models.py:6
+#: stock/models.py:17
+msgid "Name"
+msgstr "إسم"
+
+#: customers/models.py:8
+msgid "Address"
+msgstr "عنوان"
+
+#: customers/models.py:9
+msgid "Phone number"
+msgstr "رقم موبايل"
+
+#: customers/models.py:10
+msgid "Email"
+msgstr "بريد إلكترونى"
+
+#: customers/models.py:11
+msgid "Company name"
+msgstr "إسم الشركة"
+
+#: customers/models.py:12
+msgid "bank account number, E-wallet, ...etc"
+msgstr "رقم حساب بنكى"
+
+#: customers/models.py:12
+msgid "Payment info"
+msgstr "بيانات الدفع"
+
+#: customers/models.py:13
+msgid "Join date"
+msgstr "تاريخ الإنضمام"
+
+#: customers/models.py:29
+msgid "Customer type"
+msgstr "نوع العميل"
+
+#: customers/models.py:30
+msgid "Person name"
+msgstr "الشخص المسئول"
+
+#: customers/models.py:31
+msgid "Person job"
+msgstr "وظيفة الشخص المسئول"
+
+#: customers/models.py:41
+msgid "Alarm"
+msgstr "تنبيه"
+
+#: customers/models.py:47 customers/models.py:99
+msgid "Total Purchases"
+msgstr "إجمالى المشتريات"
+
+#: customers/models.py:58 customers/models.py:110
+msgid "Total payments"
+msgstr "إجمالى المدفوعات"
+
+#: customers/models.py:70 customers/models.py:123
+msgid "Total cash payments"
+msgstr "إجمالى المدفوعات النقدية"
+
+#: customers/models.py:83 customers/models.py:136
+msgid "Total bank payments"
+msgstr "إجمالى المدفوعات البنكية"
+
+#: customers/models.py:87 customers/models.py:141
+msgid "Balance"
+msgstr "الرصيد"
+
+#: customers/models.py:90 customers/models.py:153 orders/models.py:36
+msgid "Customer"
+msgstr "العميل"
+
+#: customers/models.py:91
+msgid "Customers"
+msgstr "العملاء"
+
+#: customers/models.py:144 customers/models.py:181 orders/models.py:45
+msgid "Seller"
+msgstr "المورد"
+
+#: customers/models.py:145
+msgid "Sellers"
+msgstr "الموردين"
+
+#: customers/models.py:154 customers/models.py:182
+msgid "Payment method"
+msgstr "طريقة الدفع"
+
+#: customers/models.py:155 customers/models.py:183 expenses/models.py:7
+#: expenses/models.py:21 expenses/models.py:40 expenses/models.py:52
+#: stock/models.py:47
+msgid "Value"
+msgstr "قيمة"
+
+#: customers/models.py:156 orders/models.py:72 orders/models.py:77
+msgid "Order"
+msgstr "طلب"
+
+#: customers/models.py:157 customers/models.py:184 orders/models.py:13
+msgid "Cuts"
+msgstr "الإستقطاعات"
+
+#: customers/models.py:158 customers/models.py:185 orders/models.py:14
+msgid "Fines"
+msgstr "الغرامات"
+
+#: customers/models.py:159 customers/models.py:186 orders/models.py:15
+msgid "Perks"
+msgstr "الإكراميات"
+
+#: customers/models.py:160 customers/models.py:187 expenses/models.py:8
+#: expenses/models.py:22 orders/models.py:16
+msgid "Approved"
+msgstr "تم التأكيد"
+
+#: customers/models.py:161 customers/models.py:188 expenses/models.py:9
+#: expenses/models.py:23 orders/models.py:17
+msgid "Created at"
+msgstr "تاريخ الإنشاء"
+
+#: customers/models.py:172
+msgid "Customer payment"
+msgstr "مدفوعات العميل"
+
+#: customers/models.py:173
+msgid "Customer payments"
+msgstr "مدفوعات العملاء"
+
+#: customers/models.py:199
+msgid "Seller payment"
+msgstr "مدفوعات للمورد"
+
+#: customers/models.py:200
+msgid "Seller payments"
+msgstr "مدفوعات المورد"
+
+#: expenses/apps.py:7
+msgid "Expenses and Revenues"
+msgstr "المصروفات والإيرادات"
+
+#: expenses/models.py:15
+msgid "Expense"
+msgstr "مصروف"
+
+#: expenses/models.py:16
+msgid "Expenses"
+msgstr "مصروفات"
+
+#: expenses/models.py:29
+msgid "Revenue"
+msgstr "إيراد"
+
+#: expenses/models.py:30
+msgid "Revenues"
+msgstr "إيرادات"
+
+#: expenses/models.py:41
+msgid "Refunded"
+msgstr "تم الإسترداد"
+
+#: expenses/models.py:42
+msgid "Refunded by"
+msgstr "طريقة الإسترداد"
+
+#: expenses/models.py:43 expenses/models.py:54
+msgid "created at"
+msgstr "تاريخ الإنشاء"
+
+#: expenses/models.py:46 expenses/models.py:47
+msgid "Insurance Primary"
+msgstr "التأمين الإبتدائى"
+
+#: expenses/models.py:53
+msgid "Refund date"
+msgstr "تاريخ الإستحقاق"
+
+#: expenses/models.py:57 expenses/models.py:58
+msgid "Insurance Final"
+msgstr "التأمين النهائى"
+
+#: ims/settings.py:178
+msgid "Arabic"
+msgstr "عربى"
+
+#: ims/settings.py:179
+msgid "English"
+msgstr "إنجليزى"
+
+#: orders/apps.py:7
+msgid "Orders"
+msgstr "طلبات"
+
+#: orders/models.py:10
+msgid "Cash"
+msgstr "دفع نقدى"
+
+#: orders/models.py:11
+msgid "Bank"
+msgstr "دفع عن طريق البنك"
+
+#: orders/models.py:12
+msgid "Credit"
+msgstr "آجل"
+
+#: orders/models.py:23 orders/models.py:60
+msgid "Total"
+msgstr "الإجمالى"
+
+#: orders/models.py:37
+msgid "Sales Representative"
+msgstr "البائع المسئول"
+
+#: orders/models.py:40
+msgid "Customer Order"
+msgstr "طلب عميل"
+
+#: orders/models.py:41
+msgid "Customer Orders"
+msgstr "طلبات العملاء"
+
+#: orders/models.py:48
+msgid "Seller Order"
+msgstr "مشتريات من مورد"
+
+#: orders/models.py:49
+msgid "Seller Orders"
+msgstr "مشتريات من موردين"
+
+#: orders/models.py:53 stock/models.py:30
+msgid "Product"
+msgstr "منتج"
+
+#: orders/models.py:54 stock/models.py:23
+msgid "Quantity"
+msgstr "كمية"
+
+#: orders/models.py:55
+msgid "Price of single piece of quantity"
+msgstr "سعر الوحدة الواحدة"
+
+#: orders/models.py:55
+msgid "Price"
+msgstr "سعر البيع"
+
+#: orders/models.py:67
+msgid "Order item"
+msgstr "منتج فى الطلب"
+
+#: orders/models.py:68
+msgid "Order items"
+msgstr "محتويات الطلب"
+
+#: settings/apps.py:7
+msgid "Settings"
+msgstr "إعدادات"
+
+#: settings/models.py:7
+msgid "Bank balance"
+msgstr "رصيد البنك"
+
+#: settings/models.py:8
+msgid "Cash balance"
+msgstr "رصيد النقدية"
+
+#: settings/models.py:11
+msgid "Start balance"
+msgstr "الأرصدة المبدئية"
+
+#: stock/apps.py:7
+msgid "Stock"
+msgstr "المنتجات"
+
+#: stock/models.py:12 stock/models.py:18
+msgid "Category"
+msgstr "تصنيف"
+
+#: stock/models.py:13
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: stock/models.py:19
+msgid "Mark"
+msgstr "ماركة"
+
+#: stock/models.py:20
+msgid "Model"
+msgstr "موديل"
+
+#: stock/models.py:21
+msgid "Part number"
+msgstr "رقم القطعة"
+
+#: stock/models.py:22
+msgid "Cost price"
+msgstr "سعر التكلفة"
+
+#: stock/models.py:31
+msgid "Products"
+msgstr "منتجات"
+
+#: stock/models.py:41 stock/models.py:46
+msgid "Attribute"
+msgstr "خاصية منتج"
+
+#: stock/models.py:42
+msgid "Attributes"
+msgstr "خصائص منتج"
+
+#: stock/models.py:53
+msgid "Attribute value"
+msgstr "قيمة"
+
+#: stock/models.py:54
+msgid "Attribute values"
+msgstr "قيم"

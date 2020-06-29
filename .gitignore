@@ -1,0 +1,11 @@
+*.pyc
+/static
+/media
+.idea
+/notes.txt
+*.log
+/db.sqlite3
+.coverage
+/htmlcov
+/.pytest_cache
+local_settings.py
