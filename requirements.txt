@@ -1,4 +1,4 @@
-django==2.2.13
+django==2.2.24
 django-jet==1.0.8
 whitenoise==3.3.1
 gunicorn==19.9.0
